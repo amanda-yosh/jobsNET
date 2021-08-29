@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import InputLabel from './Components/InputLabel';
-import InputLabelSelect from './Components/InputLabelSelect';
+import InputLabel from '../../components/InputLabel';
+import InputLabelSelect from '../../components/InputLabelSelect';
 
-function Home(props) {
+function Cadastro(props) {
 
   const [userSexo, setuserSexo] = useState('');
   const [userVeiculo, setuserVeiculo] = useState('');
@@ -69,4 +69,4 @@ function Home(props) {
   );
 }
 
-export default Home;
+export default Cadastro;
