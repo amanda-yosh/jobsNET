@@ -10,14 +10,3 @@ export const Container = styled.div`
     font-family: 'Montserrat', sans-serif;
   }
 `
-
-export const Secao = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: #DEBC3B;
-
-  img {
-    width: 100px;
-  }
-`

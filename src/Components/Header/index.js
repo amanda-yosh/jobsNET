@@ -5,8 +5,8 @@ export default function Header() {
     <S.Header>
       <h1>JobsNET</h1>
       <nav>
-        <a href="/">Home</a>
-        <a href="/cadastro">Cadastre-se</a>
+        <S.A to="/">Home</S.A>
+        <S.A to="/cadastro">Cadastre-se</S.A>
       </nav>
     </S.Header>
   );

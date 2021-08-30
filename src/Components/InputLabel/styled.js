@@ -2,10 +2,20 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100vw;
+  max-width: 991px;
   height: 5rem;
+
+  margin: 0 auto;
+
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  p {
+    display: inline;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
 `
 
 export const Input = styled.input`
@@ -22,10 +32,4 @@ export const Input = styled.input`
     outline: none;
     box-shadow: none;
   }
-`
-
-export const P = styled.p`
-  display: inline;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
 `

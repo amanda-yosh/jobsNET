@@ -4,6 +4,8 @@ import InputLabelSelect from '../../components/InputLabelSelect';
 
 import Header from '../../components/Header';
 
+import * as S from './styled';
+
 function Cadastro(props) {
 
   const [userSexo, setuserSexo] = useState('');
@@ -11,7 +13,7 @@ function Cadastro(props) {
   const [userCNH, setuserCNH] = useState('');
 
   return (
-    <>
+    <S.Container>
       <Header />
       <form>
         <fieldset>
@@ -70,7 +72,7 @@ function Cadastro(props) {
 
         <button type="button">Enviar</button>
       </form>
-    </>
+    </S.Container>
   );
 }
 

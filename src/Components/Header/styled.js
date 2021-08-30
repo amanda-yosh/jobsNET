@@ -1,7 +1,10 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Header = styled.header`
   width: 100%;
+  max-width: 991px;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,15 +15,19 @@ export const Header = styled.header`
     font-size: 26px;
     font-family: 'Besley', serif;
   }
+`
 
-  a {
-    padding: 1rem;
-    margin: 1rem;
-    font-family: 'Montserrat', sans-serif;
-  }
+export const A = styled(Link)`
+  text-decoration: none;
 
-  a:nth-child(1) {
-    border-right: 3px dotted;
-    padding-right: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000;
+
+  &:hover {
+    cursor: pointer;
+    color: #FFF;
   }
 `

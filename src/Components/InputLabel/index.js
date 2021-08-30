@@ -7,7 +7,7 @@ function InputLabel(props) {
   return (
     <S.Container>
       <label>
-        <S.P>{props.title}</S.P>
+        <p>{props.title}</p>
         <S.Input type={props.type} value={userInput} placeholder={props.placeholder} onChange={e => setUserInput(e.target.value)} />
       </label>
     </S.Container>
